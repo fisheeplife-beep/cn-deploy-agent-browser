@@ -1,0 +1,19 @@
+$ agent-browser open https://example.com
+[agent-browser] launched browser
+✓ Example Domain
+  https://example.com/
+
+$ agent-browser get title
+Example Domain
+
+$ agent-browser get url
+https://example.com/
+
+$ agent-browser snapshot -i
+- link "Learn more" [ref=e1]
+
+$ agent-browser screenshot examples/example.png
+✓ Screenshot saved to /workspace/cn-deploy-agent-browser/examples/example.png
+
+$ agent-browser close
+✓ Browser closed

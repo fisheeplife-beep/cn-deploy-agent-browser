@@ -1,0 +1,21 @@
+=== agent-browser CN preflight ===
+
+✅ Node.js 24.11.0 (>= 24 recommended for npm package engines)
+   npm registry: https://registry.npmjs.org/
+⚠️  npm registry is npmjs.org — OK if reachable; on timeout: npm config set registry https://registry.npmmirror.com
+✅ cargo available (optional: cargo install agent-browser)
+   (Homebrew not found — macOS users can install later)
+✅ Found browser candidate: google-chrome
+✅ ffmpeg present (needed for record *.webm/*.mp4)
+✅ Home disk free ~114 GB (Chrome for Testing ~200MB zip + unpack)
+
+--- network (best-effort) ---
+✅ Reachable: npmjs.org/agent-browser (HTTP 200)
+✅ Reachable: npmmirror/agent-browser (HTTP 200)
+✅ Reachable: Chrome for Testing CDN (Google) (HTTP 403)
+✅ Reachable: npmmirror chrome-for-testing zip (HTTP 200)
+✅ Reachable: chrome-for-testing JSON (HTTP 200)
+✅ Reachable: agent-browser.dev (HTTP 200)
+✅ Reachable: GitHub upstream (HTTP 200)
+
+=== summary: 12 ok / 1 warn / 0 bad ===

@@ -1,0 +1,40 @@
+$ agent-browser --version
+agent-browser 0.41.0
+
+$ agent-browser doctor --offline --quick
+agent-browser doctor
+
+Environment
+  pass  CLI version 0.41.0 (linux x86_64)
+  pass  Home directory /home/box
+  pass  State directory /home/box/.agent-browser
+  pass  Socket directory /tmp/xdg-runtime-box-8/agent-browser
+  pass  114.5 GB free at state dir
+
+Chrome
+  pass  Google Chrome for Testing 156.0.8078.80 at /home/box/.agent-browser/browsers/chrome-156.0.8078.80/chrome
+  info  Cache dir /home/box/.agent-browser/browsers
+
+Recording
+  pass  ffmpeg version 7.1.5-0+deb13u1 at /usr/bin/ffmpeg
+  pass  libvpx (.webm) and libx264 (.mp4) encoders available
+
+Daemons
+  pass  No active daemons
+
+Security
+  info  No encryption key set (will be auto-generated on first auth save)
+        fix: export AGENT_BROWSER_ENCRYPTION_KEY=$(openssl rand -hex 32)
+
+Providers
+  info  Browserless: BROWSERLESS_API_KEY not set
+  info  Browserbase: BROWSERBASE_API_KEY not set
+  info  Browser Use: BROWSER_USE_API_KEY not set
+  info  Kernel: KERNEL_API_KEY not set
+  info  AgentCore: no AWS credentials in env (AWS_ACCESS_KEY_ID / AWS_PROFILE)
+  info  AI_GATEWAY_API_KEY not set (chat command disabled)
+        fix: export AI_GATEWAY_API_KEY=gw_...
+
+Summary: 9 pass, 0 warn, 0 fail
+
+tip: Run with --fix to attempt repairs.
