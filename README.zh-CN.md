@@ -1,5 +1,7 @@
 # agent-browser 国内可跟做部署配套
 
+> **系列索引：** [cn-deploy](https://github.com/fisheeplife-beep/cn-deploy) — 中文可跟做部署配套合集。
+
 > 上游仓库：[vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser)  
 > 官方文档 / 站点：https://agent-browser.dev  
 > npm：[`agent-browser`](https://www.npmjs.com/package/agent-browser)  
